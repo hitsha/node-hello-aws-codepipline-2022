@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello AWS welcome to EBS\n'
+  const msg = 'Hello AWS welcome to EBS updated code \n'
   res.end(msg);
 });
 
